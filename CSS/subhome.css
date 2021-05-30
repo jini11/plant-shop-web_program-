@@ -1,0 +1,167 @@
+@charset "utf-8";
+
+body {
+    margin: 0px;
+    animation: appear 1.4s ease-in-out alternate;
+}
+
+@keyframes appear {
+    from {
+       opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+a {
+    text-decoration: none;
+    margin-right: 10px;
+    color: black;
+}
+
+.back-image {
+    position: absolute;
+    width: 1263px;
+    height: 1900px;
+    background-image: url('../Images/home.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5 ;
+    z-index: -1;
+}
+
+.top_nav {
+    position: absolute;
+    top: 10px;
+    right: 16px;
+    font-size: 15px;
+   
+}
+
+.top_nav a:hover {
+    font-weight: bold;
+}
+
+.site {
+    font-size: 48px;
+    position: absolute;
+    top: 20px;
+    left: 430px;
+}
+
+.menu {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    font-size: 24px;
+}
+
+li {
+    list-style: none;
+    text-align: center;
+    display: inline;
+    padding: 0 30px 0 30px;
+}
+
+.menu_content li a:hover {
+    font-weight: bold;
+    color: #679164;
+}
+
+/* ul */
+.content {
+    position: absolute;
+    top: 250px;
+    left: 225px; 
+}
+/* li */
+.content .list {
+   margin-bottom: auto;
+}
+/* class=img */
+.content .img {
+    float: left;
+}
+/* class=img의 img*/
+.content .img img{
+    width: 200px;
+    height: 260px;
+    margin-right: 70px;
+    box-shadow: 5px 5px 5px #679164;
+    border-radius: 5px;
+}
+/* 식물에 대한 설명 */
+.plant {
+  display: block;
+  top:0;
+  right: 0;
+  height: 220px;
+  text-align: left;
+ 
+}
+
+.button {
+    position: absolute;
+    right: 0;
+    padding: auto;
+}
+
+.bt_count {
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.bt_cart {
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.bt_buy {
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.bt_cart:hover {
+    background-color: #679164;
+} 
+
+.bt_buy:hover {
+    background-color: #679164;
+}
+
+.pages {
+    position: absolute;
+    top: 1650px;
+    left:45%;
+}
+.pages li {
+    padding-left:10px;
+    padding-right: 10px;
+}
+.footer {
+    color: darkgrey;
+    position: fixed;
+    bottom: 0;
+    left: 10%;
+}
+
+.table {
+    position: absolute;
+    top: 250px;
+    left: 225px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.table details{
+    padding-bottom: 30px;
+}
+.table p{
+    font-size: 18px;
+    font-weight: lighter;
+}
